@@ -16,11 +16,13 @@ body {
 }
 
 .heading {
-  font-size: 60px;
+  text-align: center;
+  font-size: 60px;						
   color: white;
 }
 
 .heading span {
+ 
   font-style: italic;
   font-size: 30px;
 }
@@ -28,7 +30,7 @@ body {
 .profiles {
   display: flex;
   justify-content: space-around;
-  margin: 20px 80px;
+  margin: 50px 80px;
 }
 
 .profile {
@@ -74,7 +76,7 @@ body {
   .profile {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center ;
   }
 
   .profile p {
